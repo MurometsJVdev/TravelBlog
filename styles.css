@@ -27,6 +27,7 @@ header {
 nav {
 
     display: flex;
+
     justify-content: center;
     align-items: center;
 }
@@ -101,7 +102,7 @@ img {
   height: auto;
 }
 .caption {
-  font-size: 1.6rem;
+  font-size: 1.6vw;
   text-align: center;
   line-height: 2em;
   color: #000;
@@ -185,21 +186,7 @@ img {
   transition: all 0.35s;
 }
 
-mess-container {
-  position: fixed;
-  bottom: 20px;
-  right: 80px;
-  z-index: 9999;
-}
 
-mess {
-  float: left;
-  background: silver;
-  padding: 1em 1.5em;
-  border-radius: 1em;
-  position: relative;
-  line-height: 1.5em;
-}
 
 mess::after, mess::before {
   content: "";
