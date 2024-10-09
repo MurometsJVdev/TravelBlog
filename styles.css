@@ -13,16 +13,23 @@
 body {
     font-family: 'Uncage', Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    max-width: 800px
+    padding:0;
+    @media(max-width: 800px) {
+  .container {max-width: 100%; padding: 0 ;}
+}
     color: #ffffff;
     background-color: #8D8741;
-
 }
 
 
 header {
     background-color: #DAAD86;
+    max-width: 800px
     padding: 20px 0;
+    @media(max-width: 800px) {
+  .container {max-width: 100%; padding: 0 20px;}
+}
 }
 nav {
 
@@ -102,14 +109,14 @@ img {
   height: auto;
 }
 .caption {
-  font-size: 1.6vw;
+  font-size: 1.4vw;
   text-align: center;
   line-height: 2em;
   color: #000;
   font-family: 'Times new Roman';
 }
 .item {
-  width: 40%;
+  width: 45%;
   display: inline-block;
   margin-top: 2rem;
   filter: grayscale(100%);
