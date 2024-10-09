@@ -1,7 +1,7 @@
  @IMPORT <link href="https://fonts.googleapis.com/css?family=Poor+Story" rel="stylesheet">
 
 * {
-  box-sizing: border-box;
+  
 }
 
 @font-face {
@@ -45,7 +45,7 @@ nav ul {
 }
 nav ul li {
     display: inline-block;
-    
+    padding: 20px;
 }
 nav ul li a {
     text-decoration: none;
