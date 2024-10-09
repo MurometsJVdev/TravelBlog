@@ -16,7 +16,9 @@ body {
     max-width: 800px
     padding:0;
     @media(max-width: 800px) {
-  .container {max-width: 100%; padding: 0 ;}
+  .container {max-width: 100%; padding: 0 ;
+ box-sizing: border-box;
+  }
 }
     color: #ffffff;
     background-color: #8D8741;
@@ -26,9 +28,10 @@ body {
 header {
     background-color: #DAAD86;
     max-width: 800px
-    padding: 20px 0;
+    padding:  0;
     @media(max-width: 800px) {
-  .container {max-width: 100%; padding: 0 20px;}
+  .container {max-width: 100%; padding: 0 ;
+   box-sizing: border-box;}
 }
 }
 nav {
@@ -79,7 +82,7 @@ img {
 }
 
 .beauty-rotate {
-  width: 300px;
+  width: 40%;
   height: 300px;
   border: 4px double #bd6c46; /* Рамка */
   overflow: hidden;
@@ -109,14 +112,14 @@ img {
   height: auto;
 }
 .caption {
-  font-size: 1.4vw;
+  font-size: 1.6vw;
   text-align: center;
   line-height: 2em;
   color: #000;
   font-family: 'Times new Roman';
 }
 .item {
-  width: 45%;
+  width: 40%;
   display: inline-block;
   margin-top: 2rem;
   filter: grayscale(100%);
